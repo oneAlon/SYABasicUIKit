@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYABasicUIKit_Example' do
+  pod 'SYABasicUIKit', :path => '../'
+
+  target 'SYABasicUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - SYABasicUIKit (0.1.0)
+
+DEPENDENCIES:
+  - SYABasicUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  SYABasicUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYABasicUIKit: 74f16a490b02cf60516443e13fa976daa7ff8e4d
+
+PODFILE CHECKSUM: af35b9f6133036eaf7a3a97be50a788b789fcbfc
+
+COCOAPODS: 1.6.1

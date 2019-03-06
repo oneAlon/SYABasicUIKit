@@ -1,0 +1,6 @@
+framework module Pods_SYABasicUIKit_Tests {
+  umbrella header "Pods-SYABasicUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

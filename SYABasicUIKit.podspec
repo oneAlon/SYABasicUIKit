@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYABasicUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of SYABasicUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'swift基础组件库'
 
-  s.homepage         = 'https://github.com/onealon/SYABasicUIKit'
+  s.homepage         = 'https://github.com/oneAlon/SYABasicUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'onealon' => 'wangyalong24@126.com' }
-  s.source           = { :git => 'https://github.com/onealon/SYABasicUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/oneAlon/SYABasicUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

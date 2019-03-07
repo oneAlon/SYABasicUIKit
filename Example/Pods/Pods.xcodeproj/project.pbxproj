@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		15ACC0E8F4B67F396E51EAD9793E5B73 /* Pods-SYABasicUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D20DB1ED7AD1FE1FD7ACBD853CD9B90 /* Pods-SYABasicUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		167DD02480BB70904551D5AD4D5EB38B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE27C469A68FBA65AC21EE53566B2C /* ReplaceMe.swift */; };
 		20D9BA8C0E41942C3EB6AF15E28E4E72 /* SYABasicUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFF34D27EF95897A5074AA37AA4061B /* SYABasicUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45A356B72038D9E5C2233B40497EFCD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		5DD6D698E8AEC0B502B78FA14297919D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7D7E5C7A1AA3D592D7BD4538C7576FCF /* Pods-SYABasicUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C121E5C9ABF266358FA702A22E70AB1 /* Pods-SYABasicUIKit_Example-dummy.m */; };
 		812E37685F38E3C9E328B682B3527F08 /* Pods-SYABasicUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134808E6CCE98D22E5E57F76DB43417F /* Pods-SYABasicUIKit_Tests-dummy.m */; };
+		88581B49222FAEF700804279 /* UIColor+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B48222FAEF700804279 /* UIColor+SYAB.swift */; };
+		88581B4B2230BAED00804279 /* UIFont+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B4A2230BAED00804279 /* UIFont+SYAB.swift */; };
+		88581B4E2230E79900804279 /* SYABTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B4C2230E79900804279 /* SYABTapGestureRecognizer.swift */; };
+		88581B4F2230E79900804279 /* SYABGestureAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B4D2230E79900804279 /* SYABGestureAction.swift */; };
+		88581B512230E81300804279 /* UIImage+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B502230E81300804279 /* UIImage+SYAB.swift */; };
+		88581B532230E84F00804279 /* UIScrollView+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B522230E84F00804279 /* UIScrollView+SYAB.swift */; };
+		88581B552230E86600804279 /* UITextField+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B542230E86600804279 /* UITextField+SYAB.swift */; };
+		88581B572230E87300804279 /* UITextView+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B562230E87300804279 /* UITextView+SYAB.swift */; };
+		88581B592230E87E00804279 /* UIView+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B582230E87E00804279 /* UIView+SYAB.swift */; };
 		AF3C7C3DF92A2EFB55640F26419F811A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B778E15D6E5A6FB746623AE2B678C8EF /* SYABasicUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F78B36922B5FCCD99B940F278DF1A85 /* SYABasicUIKit-dummy.m */; };
 		C4C31D75D62FD7BE060153225F62737D /* Pods-SYABasicUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B727C52CC0064E3F53B772526F1E8EA /* Pods-SYABasicUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,9 +57,17 @@
 		56031A0209DD69062FD1528328FF6166 /* SYABasicUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABasicUIKit-prefix.pch"; sourceTree = "<group>"; };
 		5617CBB88E4B4D31F4E42BF295CA4C74 /* SYABasicUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SYABasicUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DD51833551D8A04FEDD206E474AA323 /* Pods_SYABasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABasicUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ECE27C469A68FBA65AC21EE53566B2C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SYABasicUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		718DAFA0016731E971A5063F0CC71294 /* Pods-SYABasicUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYABasicUIKit_Tests.modulemap"; sourceTree = "<group>"; };
 		7C8DADBA050DCC6ED79F3C540DD4303B /* Pods-SYABasicUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYABasicUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88581B48222FAEF700804279 /* UIColor+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SYAB.swift"; sourceTree = "<group>"; };
+		88581B4A2230BAED00804279 /* UIFont+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+SYAB.swift"; sourceTree = "<group>"; };
+		88581B4C2230E79900804279 /* SYABTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYABTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		88581B4D2230E79900804279 /* SYABGestureAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYABGestureAction.swift; sourceTree = "<group>"; };
+		88581B502230E81300804279 /* UIImage+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SYAB.swift"; sourceTree = "<group>"; };
+		88581B522230E84F00804279 /* UIScrollView+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+SYAB.swift"; sourceTree = "<group>"; };
+		88581B542230E86600804279 /* UITextField+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SYAB.swift"; sourceTree = "<group>"; };
+		88581B562230E87300804279 /* UITextView+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+SYAB.swift"; sourceTree = "<group>"; };
+		88581B582230E87E00804279 /* UIView+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SYAB.swift"; sourceTree = "<group>"; };
 		8BD8A1F020A0167584EBD4E2E45FD807 /* SYABasicUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYABasicUIKit-Info.plist"; sourceTree = "<group>"; };
 		8C6D221ABB83B09DC1F143C6F2CBF0B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9095FC8C87E5B68FE18D17C4D0452D72 /* Pods-SYABasicUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABasicUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -99,6 +115,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88581B36222FA50C00804279 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				88581B562230E87300804279 /* UITextView+SYAB.swift */,
+			);
+			name = UITextView;
+			path = SYABasicUIKit/Classes/UITextView;
+			sourceTree = "<group>";
+		};
+		88581B37222FA50C00804279 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				88581B48222FAEF700804279 /* UIColor+SYAB.swift */,
+			);
+			name = UIColor;
+			path = SYABasicUIKit/Classes/UIColor;
+			sourceTree = "<group>";
+		};
+		88581B38222FA50C00804279 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				88581B542230E86600804279 /* UITextField+SYAB.swift */,
+			);
+			name = UITextField;
+			path = SYABasicUIKit/Classes/UITextField;
+			sourceTree = "<group>";
+		};
+		88581B39222FA50C00804279 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				88581B4D2230E79900804279 /* SYABGestureAction.swift */,
+				88581B4C2230E79900804279 /* SYABTapGestureRecognizer.swift */,
+			);
+			name = UIGestureRecognizer;
+			path = SYABasicUIKit/Classes/UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		88581B3A222FA50C00804279 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				88581B4A2230BAED00804279 /* UIFont+SYAB.swift */,
+			);
+			name = UIFont;
+			path = SYABasicUIKit/Classes/UIFont;
+			sourceTree = "<group>";
+		};
+		88581B3B222FA50C00804279 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				88581B502230E81300804279 /* UIImage+SYAB.swift */,
+			);
+			name = UIImage;
+			path = SYABasicUIKit/Classes/UIImage;
+			sourceTree = "<group>";
+		};
+		88581B3C222FA50C00804279 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				88581B522230E84F00804279 /* UIScrollView+SYAB.swift */,
+			);
+			name = UIScrollView;
+			path = SYABasicUIKit/Classes/UIScrollView;
+			sourceTree = "<group>";
+		};
+		88581B3D222FA50C00804279 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				88581B582230E87E00804279 /* UIView+SYAB.swift */,
+			);
+			name = UIView;
+			path = SYABasicUIKit/Classes/UIView;
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +199,15 @@
 		A4A4E0B9391D34F990095C88229C502D /* SYABasicUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6ECE27C469A68FBA65AC21EE53566B2C /* ReplaceMe.swift */,
 				EED1F7D7C84D84F1C68059E409E4CB25 /* Pod */,
+				88581B37222FA50C00804279 /* UIColor */,
+				88581B3A222FA50C00804279 /* UIFont */,
+				88581B39222FA50C00804279 /* UIGestureRecognizer */,
+				88581B3B222FA50C00804279 /* UIImage */,
+				88581B3C222FA50C00804279 /* UIScrollView */,
+				88581B38222FA50C00804279 /* UITextField */,
+				88581B36222FA50C00804279 /* UITextView */,
+				88581B3D222FA50C00804279 /* UIView */,
 				F160DB9A6D492EC9D02464ADDBC38C36 /* Support Files */,
 			);
 			name = SYABasicUIKit;
@@ -319,6 +415,9 @@
 					4091DE60B2D5C0BED3CB9A7EDFCFCE27 = {
 						LastSwiftMigration = 1010;
 					};
+					8A7B6FA27E06423A2B8F21FBB10F7583 = {
+						LastSwiftMigration = 1010;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -377,6 +476,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88581B4E2230E79900804279 /* SYABTapGestureRecognizer.swift in Sources */,
+				88581B572230E87300804279 /* UITextView+SYAB.swift in Sources */,
+				88581B4B2230BAED00804279 /* UIFont+SYAB.swift in Sources */,
+				88581B552230E86600804279 /* UITextField+SYAB.swift in Sources */,
+				88581B4F2230E79900804279 /* SYABGestureAction.swift in Sources */,
+				88581B592230E87E00804279 /* UIView+SYAB.swift in Sources */,
+				88581B532230E84F00804279 /* UIScrollView+SYAB.swift in Sources */,
+				88581B49222FAEF700804279 /* UIColor+SYAB.swift in Sources */,
+				88581B512230E81300804279 /* UIImage+SYAB.swift in Sources */,
 				7D7E5C7A1AA3D592D7BD4538C7576FCF /* Pods-SYABasicUIKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +493,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167DD02480BB70904551D5AD4D5EB38B /* ReplaceMe.swift in Sources */,
 				B778E15D6E5A6FB746623AE2B678C8EF /* SYABasicUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +618,7 @@
 			baseConfigurationReference = A5B480790D22A37614056A748EEB2E20 /* Pods-SYABasicUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -533,6 +641,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -641,6 +750,7 @@
 			baseConfigurationReference = 525CD1654B1C1E16BD55EA0CCCA1966D /* Pods-SYABasicUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -663,6 +773,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

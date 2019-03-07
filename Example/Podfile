@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/oneAlon/YAPodSpecs.git'
+source 'git@github.com:CocoaPods/Specs.git'
+
 target 'SYABasicUIKit_Example' do
   pod 'SYABasicUIKit', :path => '../'
 

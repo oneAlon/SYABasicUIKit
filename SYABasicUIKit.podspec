@@ -42,4 +42,38 @@ Pod::Spec.new do |s|
 #  s.dependency 'SYABUtilites'
 #  s.dependency 'Kingfisher'
 
+    s.subspec 'UIColor' do |color|
+        color.source_files = 'SYABasicUIKit/Classes/UIColor/*.{swift}'
+    end
+
+    s.subspec 'UIFont' do |font|
+        font.source_files = 'SYABasicUIKit/Classes/UIFont/*.{swift}'
+        # font.resource = 'SYABasicUIKit/Classes/UIFont/UIFont.bundle'
+    end
+
+    s.subspec 'UIGestureRecognizer' do |gestureRecognizer|
+        gestureRecognizer.source_files = 'SYABasicUIKit/Classes/UIGestureRecognizer/*.{swift}'
+    end
+
+    s.subspec 'UIImage' do |image|
+        image.source_files = 'SYABasicUIKit/Classes/UIImage/*.{swift}'
+    end
+
+    s.subspec 'UIScrollView' do |scrollView|
+        scrollView.source_files = 'SYABasicUIKit/Classes/UIScrollView/*.{swift}'
+    end
+
+    s.subspec 'UITextField' do |textField|
+        textField.source_files = 'SYABasicUIKit/Classes/UITextField/*.{swift}'
+    end
+
+    s.subspec 'UITextView' do |textView|
+        textView.source_files = 'SYABasicUIKit/Classes/UITextView/*.{swift}'
+    end
+
+    s.subspec 'UIView' do |view|
+        view.source_files = 'SYABasicUIKit/Classes/UIView/*.{swift}'
+        view.dependency 'SYABasicUIKit/UIGestureRecognizer'
+    end
+
 end

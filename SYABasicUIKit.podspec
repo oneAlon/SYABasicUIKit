@@ -38,9 +38,9 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-#  s.dependency 'SnapKit'
-#  s.dependency 'SYABUtilites'
-#  s.dependency 'Kingfisher'
+    s.dependency 'SnapKit'
+    # s.dependency 'SYABUtilites'
+    s.dependency 'Kingfisher'
 
     s.subspec 'UIColor' do |color|
         color.source_files = 'SYABasicUIKit/Classes/UIColor/*.{swift}'

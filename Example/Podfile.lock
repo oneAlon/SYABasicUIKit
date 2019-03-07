@@ -1,16 +1,79 @@
 PODS:
-  - SYABasicUIKit (0.1.0)
+  - Kingfisher (4.10.1)
+  - SnapKit (4.2.0)
+  - SYABasicUIKit (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABasicUIKit/UIColor (= 0.0.1)
+    - SYABasicUIKit/UIFont (= 0.0.1)
+    - SYABasicUIKit/UIGestureRecognizer (= 0.0.1)
+    - SYABasicUIKit/UIImage (= 0.0.1)
+    - SYABasicUIKit/UIScrollView (= 0.0.1)
+    - SYABasicUIKit/UITextField (= 0.0.1)
+    - SYABasicUIKit/UITextView (= 0.0.1)
+    - SYABasicUIKit/UIView (= 0.0.1)
+    - SYABUtilites
+  - SYABasicUIKit/UIColor (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UIFont (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UIGestureRecognizer (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UIImage (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UIScrollView (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UITextField (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UITextView (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABUtilites
+  - SYABasicUIKit/UIView (0.0.1):
+    - Kingfisher
+    - SnapKit
+    - SYABasicUIKit/UIGestureRecognizer
+    - SYABUtilites
+  - SYABUtilites (0.0.1):
+    - SYABUtilites/Macro (= 0.0.1)
+    - SYABUtilites/UIApplication (= 0.0.1)
+    - SYABUtilites/UIDevice (= 0.0.1)
+  - SYABUtilites/Macro (0.0.1)
+  - SYABUtilites/UIApplication (0.0.1)
+  - SYABUtilites/UIDevice (0.0.1)
 
 DEPENDENCIES:
   - SYABasicUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - SnapKit
+  https://github.com/oneAlon/YAPodSpecs.git:
+    - SYABUtilites
 
 EXTERNAL SOURCES:
   SYABasicUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYABasicUIKit: 74f16a490b02cf60516443e13fa976daa7ff8e4d
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SYABasicUIKit: 3abcf71e49ee2ae0ae25127e529d7701c8683b35
+  SYABUtilites: ef979fe27d550de01ad49f43d63bf275d2547ddf
 
-PODFILE CHECKSUM: af35b9f6133036eaf7a3a97be50a788b789fcbfc
+PODFILE CHECKSUM: 80d18af8a89c9a71491f67a187eb8d51b6b8f274
 
 COCOAPODS: 1.6.1
